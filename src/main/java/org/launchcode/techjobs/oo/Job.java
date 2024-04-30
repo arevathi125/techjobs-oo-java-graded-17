@@ -94,4 +94,18 @@ public class Job {
     public void setCoreCompetency(CoreCompetency coreCompetency) {
         this.coreCompetency = coreCompetency;
     }
+
+    //TODO: create a custom toString method
+    @Override
+    public String toString(){
+       if( name == null || employer == null || location == null || positionType == null || coreCompetency == null){
+           return "OOPS! This job does not seem to exist.";
+       }
+       return System.lineSeparator() +"ID: "+getId()+
+               "\nName: "+(getName().isEmpty()? "Data not available" : name)+
+               "\nEmployer: "+(getEmployer().getValue().isEmpty()? "Data not available" : employer)+
+               "\nLocation: "+(getLocation().getValue().isEmpty()? "Data not available" : location)+
+               "\nPosition Type: "+(getPositionType().getValue().isEmpty()? "Data not available" : positionType)+
+               "\nCore Competency: "+(getCoreCompetency().getValue().isEmpty()? "Data not available" : coreCompetency)+System.lineSeparator();
+    }
 }
