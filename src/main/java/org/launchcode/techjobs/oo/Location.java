@@ -22,6 +22,11 @@ public class Location {
         this.id = id;
     }
 
+    public Location(String value){
+        this();
+        this.value = value;
+    }
+
     // Custom toString, equals, and hashCode methods:
 
     @Override
