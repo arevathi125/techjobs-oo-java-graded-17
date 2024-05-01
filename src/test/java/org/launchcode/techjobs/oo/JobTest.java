@@ -72,7 +72,7 @@ public class JobTest {
                 +job.getCoreCompetency().getValue()+System.lineSeparator());
     }
 
-   // @Test
+    @Test
     public void testToStingHanldesOnlyIdField(){
         job = new Job();
 
