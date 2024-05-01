@@ -24,7 +24,7 @@ public class PositionType extends JobField{
    /* @Override
     public String toString(){
         return value;
-    }
+    }  */
 
     // TODO: Add custom equals and hashCode methods. Consider two PositionType objects "equal" when
     //  their id fields match.
@@ -44,7 +44,7 @@ public class PositionType extends JobField{
 
     // Getters and Setters:
 
-    public int getId() {
+  /*  public int getId() {
         return id;
     }
 

@@ -30,7 +30,7 @@ public class Employer extends JobField{
    /* @Override
     public String toString() {
         return value;
-    }
+    }  */
 
     @Override
     public boolean equals(Object o) {  // Two objects are equal if they have the same id.
@@ -47,7 +47,7 @@ public class Employer extends JobField{
 
     // Getters and Setters:
 
-    public int getId() {
+   /* public int getId() {
         return id;
     }
 

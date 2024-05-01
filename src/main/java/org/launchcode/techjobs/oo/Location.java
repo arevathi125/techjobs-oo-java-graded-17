@@ -33,7 +33,7 @@ public class Location extends JobField{
 /*    @Override
     public String toString() {
         return value;
-    }
+    }  */
 
     @Override
     public boolean equals(Object o) {
@@ -50,7 +50,7 @@ public class Location extends JobField{
 
     // Getters and Setters:
 
-    public int getId() {
+  /*  public int getId() {
         return id;
     }
 
